@@ -1,6 +1,6 @@
 <?php
 
-namespace Ktquez\Tinymce;
+namespace Nconroy\Tinymce;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -14,7 +14,7 @@ class TinymceServiceProvider extends ServiceProvider
         ], 'config');
 
         $this->publishes([
-        	__DIR__.'/assets/js/tinymce/' => base_path('public/vendor/js/tinymce')        	
+        	__DIR__.'/assets/js/tinymce/' => base_path('public/vendor/js/tinymce')
         ], 'public');
 
 		$this->loadViewsFrom(__DIR__.'/resources/view','tinymce');
@@ -22,7 +22,7 @@ class TinymceServiceProvider extends ServiceProvider
 
 	public function register()
 	{
-		
+
 	}
 
 }
