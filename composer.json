@@ -1,5 +1,5 @@
 {
-    "name": "ktquez/laravel-tinymce",
+    "name": "nconroy/laravel-tinymce",
     "description": "TinyMCE editor for Laravel and Lumen Framework",
     "keywords": ["lumen","laravel","tinymce","ckeditor","editor","WYSIWYG","textarea"],
     "homepage": "https://github.com/ktquez/laravel-tinymce",
@@ -13,7 +13,7 @@
     ],
     "autoload":{
         "psr-4":{
-            "Ktquez\\Tinymce\\": "src/"
+            "Nconroy\\Tinymce\\": "src/"
         }
     },
     "require": {}
